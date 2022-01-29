@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +22,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/promote/{cust_id}', [HomeController::class, 'promote']);
+Route::get('/demote/{cust_id}', [HomeController::class, 'demote']);
+Route::post('/findSearch', [HomeController::class, 'findSearch']);

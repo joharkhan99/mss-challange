@@ -49931,8 +49931,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/html/myapps/MSSCodingChallenge/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /var/www/html/myapps/MSSCodingChallenge/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\APPS\wampp\wamp64\www\mss-challange\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\APPS\wampp\wamp64\www\mss-challange\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
